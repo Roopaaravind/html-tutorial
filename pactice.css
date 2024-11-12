@@ -1,0 +1,8 @@
+.swa{
+    display:flex;
+    gap:10px;
+    justify-content: space-between;
+    width: 500px;
+    height: 1000px;
+    align-items: center;
+}

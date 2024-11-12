@@ -1,0 +1,116 @@
+<script>
+ const uname=document.getelementbyid(uname),value;
+const uname=document.getelementbyid(uname),value;
+</script>
+function validate(){
+if(uname--""11 pass--){
+alert(this fields are not allowing empty')
+return true
+</script>
+<form> on submit= return validate action =index.html>
+<field set> using boxes
+<legend>applicatin<legend>application form
+<label>firstname<label>
+<input type="text"placeholder="enter the first name"id="fname">
+<label>firstname<label>
+<input type="text"placeholder="enter the first name"id="fname">
+<label>gender<label><br>
+<label>male<label><input type="checkbox"id=gender
+<label>female<label><input type="checkbox"id=gender
+<label>male<label><input type="checkbox"id=gender
+<label>male<label><input type="radio"id=gender
+<LABEL>DOB<LABLE>
+<input type=date
+<label>user name<label>
+<input type="text"placeholder="enter the user name"id="fname">
+<label>password<label>
+<input type="text"placeholder="enter the user name"id="fname">
+<labe>country<label>
+<select>
+<option>india<option>
+<option>india<option>
+<option>india<option>
+<input type="submit id=submit value=register
+
+
+
+inline elements and block elements
+<h1>hello how are you my dear<h1>
+if appling  the style for particular line 
+<span style=background colur yellow particular element
+<div style
+
+styling 3 types
+inline
+external
+internal style calss name .nav
+.nav{ in nav we can use background image:url(background image)
+widht=100%
+higthbackground colour
+border 2px solid colur
+<div class =nav>bvjlvnjk
+dfjknhj
+fbjhbf
+</div>
+background size= cover it cover the window
+background repeat no repeat
+if I want to appliying the gradient applied
+before url we need to applinh liner greadianent
+ 
+
+css
+intern.cssin html
+<head>
+<link rel="stylesheet" href="intern.css">
+*{
+margin:0
+padding:0
+}
+body{
+background colour:
+}
+.nav{ class name
+margin:
+width:
+display:flex
+justify content:space between
+align items;center
+
+}
+.logo{
+width
+height
+margin top
+margin left
+ul{
+display inline -block
+justify content
+padding left:10px
+ul li a{
+text decoration none
+coler white
+background image rgb
+
+
+hover changes the group
+
+
+ 
+
+
+
+# symbol is followed by id
+
+<body>
+<nav class=nav>
+image
+<u1>
+
+
+
+
+
+
+
+
+

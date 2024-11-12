@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(./1.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input {
+            background: transparent;
+        }
+
+        .p {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+            font-size: 70px;
+            color: blue;
+            background: transparent;
+        }
+
+        .side-by-side {
+            display: flex;
+            width: 100%;
+
+        }
+
+        .v {
+            color: white;
+            font-size: 100px;
+            width: 70%;
+            padding: 20px;
+            box-sizing: border-box;
+            background: transparent;
+        }
+
+        button {
+            background-color: orange;
+            font-size: 90px;
+            border: none;
+        }
+
+        button:hover {
+            color: red;
+            background-color: aqua;
+        }
+
+        .h {
+            font-size: 100px;
+            width: 30%;
+            background: black;
+
+            box-sizing: border-box;
+            margin-right: 200px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .h button:hover {
+            background: rgb(215, 195, 62);
+            color: red;
+        }
+        p:hover{
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div class="p">
+            <p style="margin-right: 100px;">
+                <img src="./logo.png" alt="" width="30%" height="30%" style="margin-left: 200px;">
+            </p>
+            <p>HOME</p>
+            <p>ABOUT</p>
+            <p>SERVICE</p>
+            <p>DESIGN</p>
+            <p>CONTACT</p>
+            <p>
+                <input type="text" name="list" id="1" style="font-size: 70px;">
+            </p>
+            <button>search</button>
+        </div>
+
+        <div class="side-by-side">
+            <div class="v" style="margin-left: 200px;">
+                <h1>
+                    WEB DESIGN & <br>
+                    <span style="color: darkorange;"> DEVELOPMENT</span>
+                </h1>
+                <h3>COURSE</h3>
+                <p>Web design is a specialization of the design stream. They also use HTML</p>
+                <p>CSS, WYSIWYG editing software, markup validators, etc., to create design elements.</p><br>
+                <button>JOIN US</button>
+            </div>
+
+            <div class="h">
+                <form action="" style="width: 100%; font-size: 80px; height:10px">
+                    <p
+                        style="background-color:white; color:orange;font-size: 100px; text-align: center; margin-left: 300px; margin-right: 300px;">
+                        Login Here</p>
+                    <input type="email" placeholder="Enter your email"
+                        style="background-color: rgb(0, 0, 0); color: orange; font-size: 100px; text-align: center; border: none;">
+                    <hr style="color: rgb(241, 241, 4); width: 80%;">
+                    <input type="password" placeholder="Enter password"
+                        style="background-color: rgb(0, 0, 0); color: orange; font-size: 100px; text-align: center; border: none;">
+                    <hr style="color: rgb(241, 241, 4); width: 80%;">
+                    <button style="margin-left: 35%;">LOGIN</button>
+                    <p style="margin-left: 5%; color: white;">Don't have an account? <a href="">Sign up</a></p>
+                </form>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

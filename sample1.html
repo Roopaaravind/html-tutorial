@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <style>
+        
+
+        .logo img {
+            height: 50px;
+            width: 50px;
+         }
+
+        .navf ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            gap: 70px;
+        }
+
+        ul li a {
+            text-decoration: none;
+
+        }
+
+        .search {
+            display: flex;
+            float: right;
+
+        }
+
+        .navf {
+            margin-left: 00px;
+        }
+
+
+        body {
+            background-image: url("./bg.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+
+
+
+        }
+
+        a {
+            color: black;
+            font-size: 20px;
+        }
+
+        .content {
+            font-size: 30px;
+            margin-top: 100px;
+            margin-left: 300px;
+        }
+        .contents {
+            font-size: 30px;
+            margin-left: 300px;
+            color:yellow;
+        }
+
+
+        span {
+            color: darkorange;
+        }
+        .h{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        p{
+            font-size: 30px;
+        }
+        .l{
+            display: flex;
+            flex-direction: column;
+        }
+       
+        .m{
+            display: flex;
+            flex-direction: row;
+        }
+        .form{
+         margin-top: 100px;
+        margin-left: 190px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        width: 20%;
+        height: 52vh;
+        }
+        .fieldset{
+            background-color: black;
+        }
+        h3{
+color: darkorange;
+background-color: white;
+        }
+        .form p{
+            font-size: 20px;
+
+        }
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div class="h">
+        <div class="logo"><img src="./lg.jpg" alt="lg">
+        </div>
+        <div class="navf">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+
+        <div class="search">
+            <input class="srch" type="search" placeholder="type to text" style="height: 30px;">
+            <a href="#"><button class="btn" style="height: 30px;">search</button></a>
+        </div>
+
+    </div>
+<div class="m">
+    <div class="l">
+        <div class="content">
+                <h1>web design <br><span>developemnt</span> <br> course</h1>
+        </div>
+            <div class="contents">
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Officia,<br>
+                     corporis Lorem ipsum dolor sit amet.
+                 </p>
+            </div>
+    </div>
+            <div class="form">
+                <fieldset>
+                    <h3>Login Here</h3>
+                    <input type="email"name="email"placeholder="Enter email here" style="border: none;"><br>
+                    <br>
+                    <hr>
+                    <input type="password"name="password"placeholder="Enter password here"><br>
+                    <br>
+                    <hr>
+                    <button style="width: 90px; height: 40px; font-size: 20px;">login</button>
+                    <p>Don't have an account</p><br>
+                    <p>login with</p>
+               
+                </fieldset>
+                
+            
+            </div>
+    </div>
+</div>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: url(./background2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        h1{
+            margin-top: 100px;
+            font-size: 110px;
+        }
+        p{
+            font-size: 90px;
+            color: antiquewhite;
+        }
+        td{
+            color: blue;
+            font-size: 90px;
+        }
+        
+
+        fieldset {
+            background: url(./background3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 50px auto;
+            width: 80%;
+            padding: 20px;
+            border: none;
+            height: auto;
+            height: 100vh;
+            margin-top: 100px;
+        }
+
+        .side {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        .v {
+            flex: 1;
+        }
+
+        .h {
+            flex: 2;
+            font-size: 6000px;
+            margin-left: 50px;
+        }
+
+        .h table {
+            width: 100%;
+            font-size: 24px;
+            margin-right: 900px;
+            padding: 5px;
+            
+        }
+        
+
+        .h td {
+            margin-right: 500px;
+            padding: 10px;
+            color: #161717;
+            text-align: center;
+            gap: 10px;
+            
+        }
+
+        .p {
+            font-size: 36px;
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+        }
+
+        button {
+            background-color: pink;
+            border-radius: 20px;
+            font-size: 094px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(252, 10, 227);
+            color: white;
+        }
+
+        h1 {
+            color: rgb(26, 24, 24);
+        }
+
+        td:hover {
+            background-color: pink;
+            color: white;
+            border-radius: 10px;
+        }
+
+        /* Image container and animation */
+        .images {
+            position: relative;
+            width: 1100px;
+            height: 950px;
+            margin-top: 50px;
+            overflow: hidden;
+            font-size: 100px;
+            margin-left: 1180px;
+        }
+
+        .images img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            opacity: 0;
+            animation: imageSlide 10s infinite;
+        }
+
+        .images img:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .images img:nth-child(2) {
+            animation-delay: 5s;
+        }
+
+        @keyframes imageSlide {
+            0% {
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            40% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        /* Ensuring the layout is responsive */
+        @media screen and (max-width: 768px) {
+            .p {
+                font-size: 24px;
+            }
+
+            button {
+                font-size: 20px;
+                padding: 8px 16px;
+            }
+
+            .h td {
+                font-size: 18px;
+            }
+
+            .images {
+                height: 1900px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <!-- Logo and Navigation -->
+        <div class="side">
+            <div class="v">
+                <img src="./logo2.png" alt="Logo" width="700px" height="700px">
+            </div>
+            <div class="h">
+                <table>
+                    <tr>
+                        <td>HOME</td>
+                        <td>VIDEOS</td>
+                        <td>BLOG</td>
+                        <td>PORTFOLIO</td>
+                        <td>ABOUT US</td>
+                        <td>CONTACT US</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Main Text Section -->
+        <div class="p">
+            <h1>ONLINE SHOPPING</h1>
+            <p>India's biggest online store for Mobiles, Fashion (Clothes/Shoes),<br>Electronics, Home Appliances, Books, Furniture, Grocery, Jewelry, Sporting goods</p>
+            <button>LOGIN</button>
+        </div>
+
+        <!-- Image Slideshow -->
+        <div class="images">
+            <img src="./image1.png" alt="Image 1">
+            <img src="./image2.png" alt="Image 2">
+        </div>
+    </fieldset>
+</body>
+
+</html>

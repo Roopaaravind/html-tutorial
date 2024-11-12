@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url(./background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .side {
+            display: flex;
+            align-items: flex-start; /* Align items at the top */
+            margin-top: 20px; /* Add a small margin at the top if needed */
+        }
+
+        .v {
+            display: flex; /* Add flex display for vertical alignment */
+            align-items: center; /* Center image vertically */
+        }
+
+        .h {
+            font-size: 70px;
+            margin-left: 100px;
+        }
+
+        .h td {
+            padding: 40px;
+        }
+
+        .r {
+            margin-top: 50px;
+            color: white;
+            text-align: center;
+            font-size: 100px;
+        }
+
+        span {
+            color: aqua;
+        }
+
+        button {
+            background-color:transparent;
+            color: white;
+            font-size: 100px;
+            border:1px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: skyblue;
+        }
+
+        input {
+            border: 1px solid white;
+        }
+    </style>
+</head>
+   <body>
+ <div class="side">
+        <div class="v">
+            <img src="./logo2.png" alt="Logo" width="30%" height="30%" valign="top">
+        </div>
+        <div class="h">
+            <table style="border-collapse: collapse; width: 100%; border-color: white; margin-left: 100px; margin-top: 20px; margin-right: 10px;">
+                <tr>
+                    <td>HOME</td>
+                    <td>VIDEOS</td>
+                    <td>BLOG</td>
+                    <td>PORTFOLIO</td>
+                    <td>ABOUT US</td>
+                    <td>CONTACT US</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="r">
+        <h1>WELCOME TO OUR <span>WEBSITE</span></h1>
+        <p>LOREM IPSUM DOLOR AMET</p>
+        <br>
+        <button>WATCH VIDEO</button>&nbsp;&nbsp;&nbsp;<button>SUBSCRIBE US</button>
+    </div>
+</body>
+
+</html>
